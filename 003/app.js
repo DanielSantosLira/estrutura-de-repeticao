@@ -11,4 +11,5 @@ function VerificarPeriodo() {
     } else {
         document.getElementById("resultado").innerHTML = "Periodo Invalido"
     }
+    document.getElementById("periodo").value = ""
 }

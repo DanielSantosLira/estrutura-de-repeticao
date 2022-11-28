@@ -8,4 +8,7 @@ function MaiorNumero() {
  }else{
     document.getElementById("resultado").innerHTML = "O maior número é: " + n2
  }
+ document.getElementById("numero1").value = ""
+ document.getElementById("numero2").value = ""
+ 
 }

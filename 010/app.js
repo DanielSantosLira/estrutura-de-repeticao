@@ -8,13 +8,13 @@ function exibir() {
     let periodo = document.getElementById("periodo").value
     
     if (periodo == "m") {
-        document.getElementById("resultado").innerHTML = "Matutino"
+        document.getElementById("resultado").innerHTML = "Matutino, Bom Dia!" 
         
     }else if (periodo == "v") {
-        document.getElementById("resultado").innerHTML = "Vespertino"
+        document.getElementById("resultado").innerHTML = "Vespertino, Boa Tarde!"
     }
      else if (periodo == "n") {
-        document.getElementById("resultado").innerHTML = "Boa Noite!"
+        document.getElementById("resultado").innerHTML = "Noturno, Boa Noite!"
     } else {
         document.getElementById("resultado").innerHTML = "Periodo Invalido"
     }

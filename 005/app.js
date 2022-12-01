@@ -10,9 +10,9 @@ function media() {
     let media = (nota1 + nota2) / 2;
 
     if (media >= 7) {
-        document.getElementById("resultado").innerHTML = "Uau! Aprovado com lovor"
+        document.getElementById("resultado").innerHTML = "Aprovado com Distinção"
         if(media == 6){
-          document.getElementById("resultado").innerHTML = "Parabens, aprovado! Media"
+          document.getElementById("resultado").innerHTML = "Aprovado "
         }
     } else {
         document.getElementById("resultado").innerHTML = "Reprovado "

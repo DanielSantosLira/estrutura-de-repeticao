@@ -2,26 +2,26 @@
 comprar, sabendo que a decisão é sempre pelo mais barato.* */
 
 function MenorPreco() {
-    let precoProduto1 = parseFloat(document.getElementById("precoProduto1")).value
-    let precoProduto2 = parseFloat(document.getElementById("precoProduto2")).value
-    let precoProduto3 = parseFloat(document.getElementById("precoProduto3")).value
-
     
+    let precoProduto1 = parseFloat(document.getElementById("numero1").value)
+    let precoProduto2 = parseFloat(document.getElementById("numero2").value)
+    let precoProduto3 = parseFloat(document.getElementById("numero3").value)
+     let mensagem = " "
 
 
     if (precoProduto1 < precoProduto2) {
         if (precoProduto1 < precoProduto3) {
-            print("VocÃª deve comprar o primeiro produto!");
+            mensagem ="Você deve comprar o primeiro produto!";
         }
 
     } else {
-        print("VocÃª deve comprar o terceiro produto!")
-    }else{
+        mensagem ="Você deve comprar o terceiro produto!"
+    
         if (precoProduto2 < precoProduto3) {
-            print("VocÃª deve comprar o segundo produto!");
+            mensagem= "Você deve comprar o segundo produto!";
         }
-    }else{
-        print("VocÃª deve comprar o terceiro produto!")
     }
-    document.getElementById("resultado").value = ""
+    
+    document.getElementById("resultado").innerHTML = mensagem
 }
+

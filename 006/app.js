@@ -1,13 +1,13 @@
 /*Faça um Programa que leia três números e mostre o maior deles.*/
 
 function maior(){
-    var num1 = parseFloat(document.getElementById("numero1").value);
-    var num2 = parseFloat(document.getElementById("numero2").value);
-    var num3 = parseFloat(document.getElementById("numero3").value);
+    let num1 = parseFloat(document.getElementById("numero1").value);
+    let num2 = parseFloat(document.getElementById("numero2").value);
+    let num3 = parseFloat(document.getElementById("numero3").value);
 
-    var maior = num1;
-    var maior = num2;
-    var maior = num3;
+    let maior = num1;
+    maior = num2;
+    maior = num3;
 
     if(num1 > maior){
         maior = num1;

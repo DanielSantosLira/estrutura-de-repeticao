@@ -9,15 +9,24 @@ function maior(){
    
 
     if(num2 > maior)
-     maior = num2;
+      maior = num2;
+    
     if(num3 > maior)
      maior = num3;
 
-    alert("Maior: "+maior);
+     document.getElementById("resultado").innerHTML = "Maior: "+ maior
+    var menor = num1;
+
+    if(num2 < menor)
+     menor = num2;
+    if(num3 < menor)
+     menor = num3;
+
+     document.getElementById("resultado").innerHTML += "Menor: "+ menor
   }
 
 
-function menor(){
+/*function menor(){
     var num1 = parseFloat(document.getElementById("numero1").value);
     var num2 = parseFloat(document.getElementById("numero2").value);
     var num3 = parseFloat(document.getElementById("numero3").value);
@@ -30,4 +39,4 @@ function menor(){
      menor = num3;
 
     alert("Menor: "+menor);
-   }
+   }*/

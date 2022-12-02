@@ -11,14 +11,14 @@ function MenorPreco() {
 
     if (precoProduto1 < precoProduto2) {
         if (precoProduto1 < precoProduto3) {
-            mensagem ="Você deve comprar o primeiro produto!";
+            mensagem ="Você deve comprar o primeiro produto!"
         }
 
     } else {
         mensagem ="Você deve comprar o terceiro produto!"
     
         if (precoProduto2 < precoProduto3) {
-            mensagem= "Você deve comprar o segundo produto!";
+            mensagem= "Você deve comprar o segundo produto!"
         }
     }
     

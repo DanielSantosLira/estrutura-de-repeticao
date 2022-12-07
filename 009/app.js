@@ -24,6 +24,6 @@ function exibir(){
      num3=num2;
      num2=aux;
     }
-    alert(num1+"-"+num2+"-"+num3);
-  
+   
+  document.getElementById("resultado").innerHTML = num1+"-"+num2+"-"+num3
 }
